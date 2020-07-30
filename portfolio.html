@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Griffin Puc</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+    <!-- FontAwesome JS -->
+    <script defer src="fa.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="slider.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="theme.css">
+
+</head>
+
+<body class="dark-mode">
+
+    <header class="header text-center" style="border-right: 5px double #fd7e14; z-index: 10;">
+        <div class="force-overflow">
+            <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Griffin Puc</a></h1>
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+                <div id="navigation" class="collapse navbar-collapse flex-column">
+                    <div class="profile-section pt-3 pt-lg-0">
+                        <img class="profile-image mb-3 rounded-circle mx-auto" src="profile.png" alt="image">
+
+                        <div class="bio mb-3">Hi, my name is Griffin Puc and I'm a student software engineer. Welcome to my personal website!</div>
+                        <!--//bio-->
+                        <ul class="social-list list-inline py-2 mx-auto">
+                            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/griffinpuc/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" href="https://github.com/griffinpuc"><i class="fab fa-twitter fa-fw"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" href="https://github.com/griffinpuc"><i class="fab fa-github-alt fa-fw"></i></a></li>
+                        </ul>
+                        <!--//social-list-->
+                        <hr>
+                    </div>
+                    <!--//profile-section-->
+
+                    <ul class="navbar-nav flex-column text-left">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html"><i class="fas fa-user fa-fw mr-2"></i>About Me<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw mr-2"></i>Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog-home.html"><i class="fas fa-blog fa-fw mr-2"></i>Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><i class="fas fa-envelope-open-text fa-fw mr-2"></i>Contact</a>
+                        </li>
+
+                    </ul>
+
+
+
+                </div>
+            </nav>
+        </div>
+        <!--//force-overflow-->
+    </header>
+
+    <div class="main-wrapper animate__animated animate__fadeInLeft" style="z-index: 1;">
+        <section class="cta-section theme-bg-light py-5">
+            <div class="container text-center single-col-max-width">
+                <h2 class="heading">Portfolio</h2>
+                <div class="intro">
+                    <p></p>
+
+                </div>
+                <a class="btn btn-link" href="contact.html" target="_blank"><i class="fab fa-github-alt mr-2"></i>Visit my GitHub</a>
+
+
+            </div>
+            <!--//container-->
+        </section>
+        <section class="projects-list px-3 py-5 p-md-5">
+            <div class="container">
+                <div class="text-center">
+                    <ul id="filters" class="filters mb-5 mx-auto pl-0">
+                        <li class="type active mb-3 mb-lg-0" data-filter="*">All</li>
+                        <li class="type  mb-3 mb-lg-0" data-filter=".webapp">Web App</li>
+                        <li class="type  mb-3 mb-lg-0" data-filter=".mobileapp">Windows App</li>
+                        <li class="type  mb-3 mb-lg-0" data-filter=".frontend">Scripts</li>
+                        <li class="type  mb-3 mb-lg-0" data-filter=".backend">Media</li>
+                    </ul>
+                    <!--//filters-->
+                </div>
+
+                <div class="row ">
+                    <div class="col-md-6 mb-5 ">
+                        <div class="card project-card ">
+                            <div class="row no-gutters ">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="images/drone.png " class="card-img " alt="image " style="margin: 10px; width: 170px; ">
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title "><a href="project.html " class="theme-link ">PILOT RC Groundstation</a></h5>
+                                        <div class="item-icon " style="font-size: 20pt;"><i style="margin-right: 5px; " class="devicon-c-plain"></i><i style="margin-right: 5px; " class="devicon-csharp-plain-wordmark"></i><i class="devicon-windows8-original"></i></div>
+                                        <hr>
+                                        <p class="card-text ">Working on various pieces of software for the PILOT RC drone controller. This will eventually evolve into a complete UAV ground control application with GPS flight mapping/planning tools and live telemetry monitoring.</p>
+                                        <p class="card-text "><small class="text-muted ">Client: Schindler Electroncis</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask ">
+                                <a class="link-mask-link " href="project.html "></a>
+                                <div class="link-mask-text ">
+                                    <a class="btn btn-secondary " target="_blank" href="https://github.com/griffinpuc/pilotlogger">
+                                        <i class="fas fa-eye mr-2 "></i>View More Information
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <div class="col-md-6 mb-5 ">
+                        <div class="card project-card ">
+                            <div class="row no-gutters ">
+                                <div class="col-lg-4 card-img-holder" style="text-align: center;">
+                                    <img src="images/mail.png " class="card-img " alt="image " style="margin: 10px; width: 120px; ">
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title "><a href="project.html " class="theme-link ">Kamino Cloud Notes</a></h5>
+                                        <div class="item-icon " style="font-size: 20pt;"><i style="margin-right: 5px; " class="devicon-java-plain"></i><i style="margin-right: 5px; " class="devicon-intellij-plain"></i></div>
+                                        <hr>
+                                        <p class="card-text ">Working on various pieces of software for the PILOT RC drone controller. This will eventually evolve into a complete UAV ground control application with GPS flight mapping/planning tools and live telemetry monitoring.</p>
+                                        <p class="card-text "><small class="text-muted ">Personal Project</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask ">
+                                <a class="link-mask-link " href="project.html "></a>
+                                <div class="link-mask-text ">
+                                    <a class="btn btn-secondary " target="_blank" href="https://github.com/griffinpuc/kamino">
+                                        <i class="fas fa-eye mr-2 "></i>View More Information
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <div class="col-md-6 mb-5 ">
+                        <div class="card project-card ">
+                            <div class="row no-gutters ">
+                                <div class="col-lg-4 card-img-holder" style="text-align: center;">
+                                    <img src="images/web-page.png " class="card-img " alt="image " style="margin: 10px; width: 130px; margin-top: 30px;">
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title "><a href="project.html " class="theme-link ">Tangen Internal Data Portal</a></h5>
+                                        <div class="item-icon " style="font-size: 20pt;"><i style="margin-right: 5px; " class="devicon-javascript-plain"></i><i style="margin-right: 5px; " class="devicon-csharp-plain-wordmark"></i><i style="margin-right: 5px; " class="devicon-html5-plain"></i><i class="devicon-dot-net-plain"></i></div>
+                                        <hr>
+                                        <p class="card-text ">Designed, developed, and implemented an internal data portal to provide an interface for scientists to organize, interact with, and download instrument data. Facets of this operation facilitate automatic data-transfers
+                                            between the database and instrument hardware, while the portal provides a user-friendly interface.</p>
+                                        <p class="card-text "><small class="text-muted ">Client: Tangen Biosciences</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask ">
+                                <a class="link-mask-link " href="project.html "></a>
+                                <div class="link-mask-text ">
+                                    <a class="btn btn-secondary " target="_blank" href="https://github.com/griffinpuc/tangenportalv2">
+                                        <i class="fas fa-eye mr-2 "></i>View More Information
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+
+                    <div class="col-md-6 mb-5 ">
+                        <div class="card project-card ">
+                            <div class="row no-gutters ">
+                                <div class="col-lg-4 card-img-holder" style="text-align: center;">
+                                    <img src="images/folder.png " class="card-img " alt="image " style="margin: 10px; width: 130px; margin-top: 30px;">
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title "><a href="project.html " class="theme-link ">Tangen Update Agent</a></h5>
+                                        <div class="item-icon " style="font-size: 20pt;"><i style="margin-right: 5px; " class="devicon-mysql-plain"></i><i style="margin-right: 5px; " class="devicon-csharp-plain-wordmark"></i>
+                                            <i class="devicon-dot-net-plain"></i></div>
+                                        <hr>
+                                        <p class="card-text ">Designed, developed, and implemented an internal data portal to provide an interface for scientists to organize, interact with, and download instrument data. Facets of this operation facilitate automatic data-transfers
+                                            between the database and instrument hardware, while the portal provides a user-friendly interface.</p>
+                                        <p class="card-text "><small class="text-muted ">Client: Tangen Biosciences</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask ">
+                                <a class="link-mask-link " href="project.html "></a>
+                                <div class="link-mask-text ">
+                                    <a class="btn btn-secondary " target="_blank" href="https://github.com/griffinpuc/tangenupdateagent">
+                                        <i class="fas fa-eye mr-2 "></i>View More Information
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                </div>
+                <!--//row-->
+
+            </div>
+        </section>
+
+        <footer class="footer text-center py-4">
+            <small class="copyright">Copyright 2020 &copy; Griffin Puc</small>
+        </footer>
+
+    </div>
+    <!--//main-wrapper-->
+
+    <!-- Javascript -->
+    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!--Page Specific JS -->
+    <script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script>
+
+    <script type="text/javascript" src="assets/js/isotope-custom.js"></script>
+
+    <!-- Dark Mode -->
+    <script src="assets/plugins/js-cookie.min.js"></script>
+    <script src="assets/js/dark-mode.js"></script>
+
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script src="assets/js/demo/style-switcher.js"></script>
+
+</body>
+
+</html>

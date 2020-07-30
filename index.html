@@ -1,340 +1,370 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
+    <title>Griffin Puc</title>
+
+    <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Griffin Puc</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
 
-    <link href="https://fonts.googleapis.com/css?family=Lekton|Quicksand|Raleway&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+    <!-- FontAwesome JS -->
+    <script defer src="fa.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="slider.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="theme.css">
+
 </head>
 
+<body class="dark-mode">
+
+    <header class="header text-center" style="border-right: 5px double #fd7e14; z-index: 10;">
+        <div class="force-overflow">
+            <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">Griffin Puc</a></h1>
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+                <div id="navigation" class="collapse navbar-collapse flex-column">
+                    <div class="profile-section pt-3 pt-lg-0">
+                        <img class="profile-image mb-3 rounded-circle mx-auto" src="profile.png" alt="image">
+
+                        <div class="bio mb-3">Hi, my name is Griffin Puc and I'm a student software engineer. Welcome to my personal website!</div>
+                        <!--//bio-->
+                        <ul class="social-list list-inline py-2 mx-auto">
+                            <li class="list-inline-item"><a target="_blank" href="https://www.linkedin.com/in/griffinpuc/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" href="https://github.com/griffinpuc"><i class="fab fa-twitter fa-fw"></i></a></li>
+                            <li class="list-inline-item"><a target="_blank" href="https://github.com/griffinpuc"><i class="fab fa-github-alt fa-fw"></i></a></li>
+                        </ul>
+                        <!--//social-list-->
+                        <hr>
+                    </div>
+                    <!--//profile-section-->
+
+                    <ul class="navbar-nav flex-column text-left">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html"><i class="fas fa-user fa-fw mr-2"></i>About Me<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw mr-2"></i>Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html"><i class="fas fa-file-alt fa-fw mr-2"></i>Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog-home.html"><i class="fas fa-blog fa-fw mr-2"></i>Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><i class="fas fa-envelope-open-text fa-fw mr-2"></i>Contact</a>
+                        </li>
+
+                    </ul>
 
 
-<body style="font-family: 'Quicksand', sans-serif;">
-    
-    <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-    </div>
-    <!-- End #mobile-menu-toggle -->
-    <header>
-        <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+
+                </div>
+            </nav>
         </div>
-        <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Projects</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-        </ul>
+        <!--//force-overflow-->
     </header>
 
-    
-    <!-- End header -->
+    <div class="main-wrapper animate__animated animate__fadeInLeft" style="z-index: 1;">
 
-    <div id="lead">
-        <div id="lead-content">
-            <h1 style="font-family: 'Bungee Shade';">Griffin Puc</h1>
-            <h2 style="font-family: 'Lekton', sans-serif;"></h2>
-            <hr>
-            <a href="https://www.linkedin.com/in/griffinpuc/" target="_blank" style="font-size: 10pt;" class="btn-rounded-white">View LinkedIn</a>
-            <a href="https://www.github.com/griffinpuc" target="_blank" style="font-size: 10pt;" class="btn-rounded-white">View GitHub</a>
-        </div>
-        <!-- End #lead-content -->
+        <section class=" about-me-section p-3 p-lg-5 ">
+            <div class="container ">
 
-        <div id="lead-overlay"></div>
+                <div class="profile-teaser media flex-column flex-lg-row ">
 
-        <div id="lead-down">
-            <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </span>
-        </div>
-        <!-- End #lead-down -->
-    </div>
-    <!-- End #lead -->
-
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div class="col-md-8">
-                    <p>
-                        As a computer science student from New England studying at Marist College in Poughkeepsie, New York, I am passionate in everything technical, specifically fullstack .NET development. While I enjoy these interests, I am also passionate in graphic design, travel, and backpacking.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End #about -->
-
-    <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-
-            <div>
-                <h3>Previous Experience</h3>
-                <br>
-                <a href="https://www.linkedin.com/in/griffinpuc/#background-experience" target="_blank">View previous experience via LinkedIn</a>
-            </div>
-
-            <div data-date="May 2018 - August 2018">
-                <h3>YB Realty</h3>
-                <h4 >Graphic Design and Social Media Content Management</h4>
-                <p>
-                    Designed and posted advertisements, promotions, and property listings for various social media accounts using Adobe Photoshop & Illustrator.
-                </p>
-            </div>
-
-            <div data-date="April 2019 - August 2019">
-                <h3>Tangen Biosciences</h3>
-                <h4>Intern, Software Engineering</h4>
-                <p>
-                    Various work including designing, developing, and deploying a website for internal data management and developing development tools. Gaining experience in the software product life cycle.
-                </p>
-            </div>
-
-            <div data-date="Winter Break, December 2019">
-                    <h3>Tangen Biosciences</h3>
-                    <h4>Intern, Software Engineering</h4>
-                    <p>
-                        Various work including designing, developing, and deploying a website for internal data management and developing development tools. Gaining experience in the software product life cycle.
-                    </p>
-            </div>
-
-            <div data-date="September 2019 - Current">
-                <h3>Marist College IT</h3>
-                <h4>Student Software Engineer</h4>
-                <p>
-                    Working as a part time student software engineer developing web portlets for the Marist website. Utilizing technologies such as Java, SQL, and the Liferay framework 
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #experience -->
-
-    <div id="education">
-        <h2 class="heading">Education</h2>
-
-        <h3>Institutions</h3>
-		
-		
-        <div class="education-block">
-            <h3 style="font-weight: bolder;">Marist College</h3>
-            <span class="education-date" style="font-family: 'Lekton', sans-serif;">August 2018 - Present (Expected May 2022)</span>
-            <h4>Bachelor of Science in Computer Science</h4>
-            <h5>Expected B.S. Computer Science degree with a concentration in software development</h5>
-            <ul>
-            </ul>
-        </div>
-
-        <div class="education-block">
-            <h3 style="font-weight: bolder;">Dublin Business School</h3>
-            <span class="education-date" style="font-family: 'Lekton', sans-serif;">August 2018 - April 2019</span>
-            <h4>FIE Study Abroad</h4>
-            <h5>Various coursework towards my Marist B.S. Computer Science degree</h5>
-        </div>
-        <!-- End .education-block -->
-
-
-        <h3>Certificates</h3>
-
-        <div class="education-block">
-                <h3 style="font-weight: bolder;">Software Development Fundamentals</h3>
-                <span class="education-date" style="font-family: 'Lekton', sans-serif;">Issued 12 April 2019</span>
-                <h4>Microsoft Technology Associate</h4>
-                <a href="https://www.youracclaim.com/badges/a1ff8a81-f04a-48f5-9fd3-3c4c7136e252" target="_blank">View Certificate</a>
-                <ul>
-                </ul>
-            </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-			
-				<div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/drone.png" width="275px;" style="padding: 50px;"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3 >PILOT RC Software</h3>
-                        <h4 style="font-family: 'Lekton', sans-serif;"><span style="font-size: 10pt; margin-right: 1vw;">2020</span>Schindler Electronics</h4>
-                        <p>
-                            Working on various pieces of software for the PILOT RC drone controller. This will eventually evolve into a complete UAV ground control application with GPS flight mapping/planning tools and live telemetry monitoring.
-                        </p>
-                        <a href="https://github.com/griffinpuc/pilotlogger" target="_blank">View Code & Download</a>
-                        <a href="https://schindlerelectronics.com" style="margin-left: 2vw;" target="_blank">View Company</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/drinks.png" width="275px;" style="padding: 50px;"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3 >Muddle</h3>
-                        <h4 style="font-family: 'Lekton', sans-serif;"><span style="font-size: 10pt; margin-right: 1vw;">2019</span>Personal Project</h4>
-                        <p>
-                            A cocktail recipe search webapp. Allows user to search for recipes using keywords. Still an in-progress project currently a pre-release version.
-                        </p>
-                        <a href="https://github.com/griffinpuc/muddleapp" target="_blank">View Code & Download</a>
-                        <a href="http://muddle.live" style="margin-left: 2vw;pointer-events: none;color:grey;text-decoration: line-through;" target="_blank">View Live Demo</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/folder.png" width="275px;" style="padding: 50px;"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3 >Internal Data Portal</h3>
-                        <h4 style="font-family: 'Lekton', sans-serif;"><span style="font-size: 10pt; margin-right: 1vw;">2019</span>Tangen Biosciences, Inc</h4>
-                        <p>
-                            Designed, developed, and implemented an internal data portal to provide an interface for scientists to organize, interact with, and download instrument data. Facets of this operation facilitate automatic data-transfers between the database and instrument hardware, while the portal provides a user-friendly interface.
-                        </p>
-                        <a href="https://github.com/griffinpuc/tangen-dataportal" target="_blank">View Project</a>
-                        <a href="http://tangenbio.com/" style="margin-left: 2vw;" target="_blank">View Company</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/instrument.png" width="275px;" style="padding: 50px;"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Instrument Hardware Simulator</h3>
-                        <h4 style="font-family: 'Lekton', sans-serif;"><span style="font-size: 10pt; margin-right: 1vw;">2019</span>Tangen Biosciences, Inc</h4>
-                        <p>
-                                Container-based software that easily allows mock Tangen instrument instances to be simulated on a pc. Originally built for testing the Tangen Data Portal, but can be used anywhere an instrument is required as it replicates API requests exactly like the physical hardware and provides useful functionality.
-                        </p>
-                        <a href="https://github.com/griffinpuc/TGNBInstrumentSim" target="_blank">View Project</a>
-                        <a href="http://tangenbio.com/" style="margin-left: 2vw;" target="_blank">View Company</a>
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/rock.png" width="275px;" style="padding: 50px;"/>
-                    </div>
-                    <!-- End .project-image -->
-                    <div class="project-info">
-                        <h3>Random Caves Generator</h3>
-                        <h4 style="font-family: 'Lekton', sans-serif;"><span style="font-size: 10pt; margin-right: 1vw;">2017</span>Personal Project</h4>
-                        <p>
-                                Python application that creates a randomly-generated 2D underground cave world using cellular automata. The start to a game that was never finished. Made in the summer of 2017 due to boredom, but is worthy to highlight as the random terrain generation is interesting.
-                        </p>
-                        <a href="https://github.com/griffinpuc/Caves" target="_blank">View Project</a>
-                        
-                    </div>
-                    <!-- End .project-info -->
-                </div>
-                <!-- End .project -->
-
-                <div class="project shadow-large">
-                        <!-- End .project-image -->
-                        <div class="project-info">
-                            <h4>Disclaimer</h4>
+                    <div class="media-body ">
+                        <h2 class="name font-weight-bold mb-1 ">Griffin Puc</h2>
+                        <div class="tagline mb-3 ">Student Software Engineer</div>
+                        <div class="bio mb-4 ">Currently working as a student software engineer in administrative computing and studying at Marist College. I am also developing drone control software for small electronics/drone company based out of LA, which can be viewed on
+                            my <a class="link-on-bg " href="projects.html ">project portfolio</a>. Check out my <a class="link-on-bg " href="resume.html ">online resume</a>.
                         </div>
-                        <!-- End .project-info -->
+                        <!--//bio-->
+                        <div class="mb-4 ">
+                            <a class="btn btn-primary mr-2 mb-3 " href="portfolio.html "><i class="fas fa-arrow-alt-circle-right mr-2 "></i><span class="d-none d-md-inline ">View</span> Portfolio</a>
+                            <a class="btn btn-secondary mb-3 " href="resume.html "><i class="fas fa-file-alt mr-2 "></i><span class="d-none d-md-inline ">View</span> Resume</a>
+                        </div>
                     </div>
+
+                    <!--//media-body-->
+                </div>
+
+                <div class="alert alert-primary" role="alert">
+                    <i style="margin-right: 30px;" class="fa fa-bell alert-link" aria-hidden="true"></i>Hey! Check out my latest project, the <a class="alert-link" target="_blank" href="https://github.com/griffinpuc/pilotlogger">PILOT RC Groundstation Drone Control Software,</a>                    available for download now!
+                </div>
+
             </div>
-        </div>
-    </div>
-    <!-- End #projects -->
+        </section>
+        <!--//about-me-section-->
 
-    <div id="skills">
-        <h2 class="heading">Skills</h2>
-        <ul>
-            <h3>Technical</h3>
-            <li>C#</li>
-            <li>Python</li>
-            <li>Java</li>
-            <li>ASP.NET MVC</li>
-            <li>Javascript</li>
-            <li>Git</li>
-            <li>Flask</li>
-            <li>MS IIS Server</li>
-            <li>SQL</li>
+        <section class="overview-section p-3 p-lg-5 ">
+            <div class="container ">
+                <h2 class="section-title font-weight-bold mb-3 ">What I do</h2>
+                <div class="section-intro mb-5 ">I have multiple years of experience building websites, Windows applicatons, and scripts using various languages and frameworks. I am familiar with configuring Windows Servers, MySQL Servers, and web severs using Microsoft Internet Informatio
+                    Services (IIS).</div>
+                <div class="row ">
 
-            <h3>Design</h3>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-            <li>Adobe Photoshop</li>
-            <li>Adobe Illustrator</li>
-            <li>Adobe XD</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
+                    <div class="item col-6 col-lg-3 ">
+                        <div class="item-inner ">
+                            <div class="item-icon "><i style="margin-right: 5px; " class="devicon-csharp-plain colored "></i><i style="margin-right: 5px; " class="devicon-visualstudio-plain colored "></i><i class="devicon-dot-net-plain-wordmark colored "></i></div>
+                            <h3 class="item-title ">C# & .NET Frameworks</h3>
+                            <div class="item-desc ">My favorite go-to stack of technologies for everything web and desktop. I have built many applications using WPF and ASP.NET, along with many technologies from the .NET stack.</div>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+                    <div class="item col-6 col-lg-3 ">
+                        <div class="item-inner ">
+                            <div class="item-icon "><i class="fab fa-js-square mr-2 "></i><i class="fab fa-html5 mr-2 "></i><i class="fab fa-css3-alt "></i></div>
+                            <h3 class="item-title ">JS, HTML, & CSS</h3>
+                            <div class="item-desc ">The foundations used to build every good website- I have much experience using these technologies to construct websites from the ground up. Used in dynamic sites alongside Python Flask and .NET Razor Pages.</div>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
 
-    <hr>
+                    <div class="item col-6 col-lg-3 ">
+                        <div class="item-inner ">
+                            <div class="item-icon "><i style="margin-right: 5px; color: white; " class="devicon-mysql-plain colored "></i><i class="devicon-windows8-original colored "></i></div>
+                            <h3 class="item-title ">MySQL & Windows Environments</h3>
+                            <div class="item-desc ">I have experience writing SQL scripts and configuring MySQL and MSSQL servers and IIS webservers on Windows Servers. Alongside the .NET stack utilizing Entity Framework Core.</div>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
 
-    <footer style="font-family: 'Lekton', sans-serif;">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2020 Griffin Puc
-                    </p>
+                    <div class="item col-6 col-lg-3 ">
+                        <div class="item-inner ">
+                            <div class="item-icon "><i style="margin-right: 5px; " class="devicon-git-plain colored "></i></div>
+                            <h3 class="item-title ">Git</h3>
+                            <div class="item-desc ">No project is complete without some form of version control. I have years of experience using Git.</div>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+
+                    <div class="item col-6 col-lg-3 ">
+                        <div class="item-inner ">
+                            <div class="item-icon "><i style="margin-right: 5px; " class="devicon-java-plain colored "></i><i class="devicon-intellij-plain colored "></i></div>
+                            <h3 class="item-title ">Java</h3>
+                            <div class="item-desc ">I have coded networking applications in Java, custom mods for Minecraft, and custom plugins for use on Spigot Minecraft servers.</div>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+
+                    <div class="item col-6 col-lg-3 ">
+                        <div class="item-inner ">
+                            <div class="item-icon "><i style="margin-right: 5px; " class="fab fa-python "></i><i style="margin-right: 5px; " class="devicon-heroku-original colored "></i><i class="devicon-pycharm-plain colored "></i></div>
+                            <h3 class="item-title ">Python & Heroku</h3>
+                            <div class="item-desc ">Utilized the Flask framework in Python to develop basic web applications. I have used Heroku as a means of deploying and hosting these projects.</div>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+
+                    <div class="item col-6 col-lg-3 ">
+                        <div class="item-inner ">
+                            <div class="item-icon "><i style="margin-right: 5px; color: white; " class="devicon-github-plain "></i><i style="margin-right: 5px; " class="devicon-bitbucket-plain colored "></i><i class="devicon-gitlab-plain colored "></i></div>
+                            <h3 class="item-title ">GitHub, Bitbucket, & GitLab</h3>
+                            <div class="item-desc ">Many years of experience managing project pages in conjuction with Git using GitHub and Bitbucket.</div>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
+
+                    <div class="item col-6 col-lg-3 " style="border: 2px solid white; border-radius: 10px; ">
+                        <div class="item-inner " style="margin: 5px; ">
+                            <div class="item-icon "><i style="margin-right: 5px; " class="devicon-photoshop-plain colored "></i><i class="devicon-illustrator-plain colored "></i></div>
+                            <h3 class="item-title ">Photoshop & Illustrator</h3>
+                            <div class="item-desc ">Experience creating graphics, icons, logos, and project infographics utilizing programs in the Adobe suite.</div>
+                        </div>
+                        <!--//item-inner-->
+                    </div>
+                    <!--//item-->
                 </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/griffinpuc" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/in/griffinpuc" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                </div>
+                <!--//row-->
+
+                </a>
             </div>
-        </div>
-    </footer>
-    <!-- End footer -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/scripts.min.js"></script>
+            <!--//container-->
+        </section>
+
+
+
+        <div class="container ">
+            <hr>
+        </div>
+
+        <section class="featured-section p-3 p-lg-5 ">
+            <div class="container ">
+                <h2 class="section-title font-weight-bold mb-5 ">Featured Projects</h2>
+                <div class="row ">
+                    <div class="col-md-6 mb-5 ">
+                        <div class="card project-card ">
+                            <div class="row no-gutters ">
+                                <div class="col-lg-4 card-img-holder">
+                                    <img src="images/drone.png " class="card-img " alt="image " style="margin: 10px; width: 170px; ">
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title "><a href="project.html " class="theme-link ">PILOT RC Groundstation</a></h5>
+                                        <div class="item-icon " style="font-size: 20pt;"><i style="margin-right: 5px; " class="devicon-c-plain"></i><i style="margin-right: 5px; " class="devicon-csharp-plain-wordmark"></i><i class="devicon-windows8-original"></i></div>
+                                        <hr>
+                                        <p class="card-text ">Working on various pieces of software for the PILOT RC drone controller. This will eventually evolve into a complete UAV ground control application with GPS flight mapping/planning tools and live telemetry monitoring.</p>
+                                        <p class="card-text "><small class="text-muted ">Client: Schindler Electroncis</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask ">
+                                <a class="link-mask-link " href="project.html "></a>
+                                <div class="link-mask-text ">
+                                    <a class="btn btn-secondary " target="_blank" href="https://github.com/griffinpuc/pilotlogger">
+                                        <i class="fas fa-eye mr-2 "></i>View More Information
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <div class="col-md-6 mb-5 ">
+                        <div class="card project-card ">
+                            <div class="row no-gutters ">
+                                <div class="col-lg-4 card-img-holder" style="text-align: center;">
+                                    <img src="images/web-page.png " class="card-img " alt="image " style="margin: 10px; width: 130px; margin-top: 30px;">
+                                </div>
+                                <div class="col-lg-8 ">
+                                    <div class="card-body ">
+                                        <h5 class="card-title "><a href="project.html " class="theme-link ">Tangen Internal Data Portal</a></h5>
+                                        <div class="item-icon " style="font-size: 20pt;"><i style="margin-right: 5px; " class="devicon-javascript-plain"></i><i style="margin-right: 5px; " class="devicon-csharp-plain-wordmark"></i><i style="margin-right: 5px; " class="devicon-html5-plain"></i><i class="devicon-dot-net-plain"></i></div>
+                                        <hr>
+                                        <p class="card-text ">Designed, developed, and implemented an internal data portal to provide an interface for scientists to organize, interact with, and download instrument data. Facets of this operation facilitate automatic data-transfers
+                                            between the database and instrument hardware, while the portal provides a user-friendly interface.</p>
+                                        <p class="card-text "><small class="text-muted ">Client: Tangen Biosciences</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="link-mask ">
+                                <a class="link-mask-link " href="project.html "></a>
+                                <div class="link-mask-text ">
+                                    <a class="btn btn-secondary " target="_blank" href="https://github.com/griffinpuc/tangenportalv2">
+                                        <i class="fas fa-eye mr-2 "></i>View More Information
+                                    </a>
+                                </div>
+                            </div>
+                            <!--//link-mask-->
+                        </div>
+                        <!--//card-->
+                    </div>
+
+                    <!--//col-->
+                </div>
+                <!--//row-->
+                <div class="text-center py-3 "><a href="portfolio.html " class="btn btn-primary "><i class="fas fa-arrow-alt-circle-right mr-2 "></i>View Portfolio</a></div>
+
+            </div>
+            <!--//container-->
+        </section>
+        <!--//featured-section-->
+
+        <div class="container ">
+            <hr>
+        </div>
+        <!--
+        <section class="latest-blog-section p-3 p-lg-5 ">
+            <div class="container ">
+                <h2 class="section-title font-weight-bold mb-5 ">Latest Blog Posts</h2>
+                <div class="row ">
+                    <div class="col-md-4 mb-5 ">
+                        <div class="card blog-post-card ">
+                            <img class="card-img-top " src="assets/images/blog/blog-post-thumb-card-1.jpg " alt="image ">
+                            <div class="card-body ">
+                                <h5 class="card-title "><a class="theme-link " href="blog-post.html ">Top 3 JavaScript Frameworks</a></h5>
+                                <p class="card-text ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
+                                <p class="mb-0 "><a class="more-link " href="blog-post.html ">Read more &rarr;</a></p>
+
+                            </div>
+                            <div class="card-footer ">
+                                <small class="text-muted ">Published 2 days ago</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5 ">
+                        <div class="card blog-post-card ">
+                            <img class="card-img-top " src="assets/images/blog/blog-post-thumb-card-2.jpg " alt="image ">
+                            <div class="card-body ">
+                                <h5 class="card-title "><a class="theme-link " href="blog-post.html ">About Remote Working</a></h5>
+                                <p class="card-text ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
+                                <p class="mb-0 "><a class="more-link " href="blog-post.html ">Read more &rarr;</a></p>
+                            </div>
+                            <div class="card-footer ">
+                                <small class="text-muted ">Published a week ago</small>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5 ">
+                        <div class="card blog-post-card ">
+                            <img class="card-img-top " src="assets/images/blog/blog-post-thumb-card-3.jpg " alt="image ">
+                            <div class="card-body ">
+                                <h5 class="card-title "><a class="theme-link " href="blog-post.html ">A Guide to Becoming a Full-Stack Developer</a></h5>
+                                <p class="card-text ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient...</p>
+                                <p class="mb-0 "><a class="more-link " href="blog-post.html ">Read more &rarr;</a></p>
+                            </div>
+                            <div class="card-footer ">
+                                <small class="text-muted ">Published 3 weeks ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center py-3 "><a href="blog-home.html " class="btn btn-primary "><i class="fas fa-arrow-alt-circle-right mr-2 "></i>View Blog</a></div>
+            </div>
+
+        </section>-->
+        <!--//latest-blog-section-->
+
+        <footer class="footer text-center py-4">
+            <small class="copyright">Copyright 2020 &copy; Griffin Puc</small>
+        </footer>
+
+    </div>
+    <!--//main-wrapper-->
+
+    <!-- Javascript -->
+    <script src="assets/plugins/jquery-3.4.1.min.js "></script>
+    <script src="assets/plugins/popper.min.js "></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js "></script>
+
+    <script src="assets/plugins/tiny-slider/min/tiny-slider.js "></script>
+    <script src="assets/js/testimonials.js "></script>
+
+
+    <!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
+    <script src="assets/js/demo/style-switcher.js "></script>
+
+    <!-- Dark Mode -->
+    <script src="assets/plugins/js-cookie.min.js "></script>
+    <script src="assets/js/dark-mode.js "></script>
+
 </body>
 
 </html>
