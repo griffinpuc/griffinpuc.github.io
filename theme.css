@@ -10645,6 +10645,10 @@ hr {
     border: 0
 }
 
+.link-on-bg {
+    color: lightblue;
+}
+
 .testiomonial-carousel-container .tns-nav button.tns-nav-active {
     background: #292929
 }
